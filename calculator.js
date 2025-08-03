@@ -43,5 +43,11 @@ subtraction.addEventListener('click', function() {
     updateResultDisplay();    
 });
 
+multiplication.addEventListener('click', function() {
+    const [num1, num2] = getNumbers();
+    result = multiply(num1, num2);
+    updateResultDisplay();    
+});
+
 
 
