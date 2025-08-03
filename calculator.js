@@ -31,7 +31,11 @@ function updateResultDisplay() {
     document.getElementById('calculation-result').textContent = result;
 }
 
-
+addition.addEventListener('click', function() {
+    const [num1, num2] = getNumbers();
+    result = add(num1, num2);
+    updateResultDisplay();    
+});
 
 
 
