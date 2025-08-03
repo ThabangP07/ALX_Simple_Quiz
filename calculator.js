@@ -49,5 +49,11 @@ multiplication.addEventListener('click', function() {
     updateResultDisplay();    
 });
 
+division.addEventListener('click', function() {
+    const [num1, num2] = getNumbers();
+    result = divide(num1, num2);
+    updateResultDisplay();    
+});
+
 
 
