@@ -3,4 +3,11 @@ function checkAnswer() {
     let correctAnswer = 4;
 
     const userAnswer = document.querySelector('[name=quiz]').value;
+    const feedbackVal = document.getElementById('feedback');
+
+    if (userAnswer === correctAnswer) {
+        feedbackVal.textContent = 'Correct! Well done.';
+    } else {
+        feedbackVal.textContent = "That's incorrect. Try again!";
+    }
 }
