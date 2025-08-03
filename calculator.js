@@ -37,5 +37,11 @@ addition.addEventListener('click', function() {
     updateResultDisplay();    
 });
 
+subtraction.addEventListener('click', function() {
+    const [num1, num2] = getNumbers();
+    result = subtract(num1, num2);
+    updateResultDisplay();    
+});
+
 
 
