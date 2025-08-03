@@ -11,3 +11,7 @@ function checkAnswer() {
         feedbackVal.textContent = "That's incorrect. Try again!";
     }
 }
+
+const submitBtn = document.getElementById('submit-answer');
+
+submitBtn.addEventListener('click', checkAnswer);
