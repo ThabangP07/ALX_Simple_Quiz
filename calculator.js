@@ -25,6 +25,11 @@ function getNumbers() {
     return [number1, number2];
 }
 
+let result = 0;
+
+function updateResultDisplay() {
+    document.getElementById('calculation-result').textContent = result;
+}
 
 
 
